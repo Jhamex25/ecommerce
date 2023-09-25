@@ -1,0 +1,42 @@
+body{
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.card {
+    width: 18rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+#cart{
+    max-width: 100%;
+    align-items: center;
+    background-color: #FDB750;
+    justify-content: center;
+}
+
+#orderSummary{
+    max-width: 50%;
+    background-color: rgb(232, 248, 248);
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+#ordersum{
+ list-style-type:decimal;
+
+}
+nav{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    padding: 0, 0, 20px;
+    position: sticky;
+}
+li{
+    font-size: medium;
+}
+.col-8, .col-4{
+    margin: 0;
+}
